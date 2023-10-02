@@ -1,7 +1,8 @@
 version: 2
 
 updates:
-  - package-ecosystem: 'yarn'
+    # not yarn, it shouts
+  - package-ecosystem: 'npm'
     directory: '/'
     schedule:
       interval: 'daily'
