@@ -4,7 +4,9 @@ updates:
   - package-ecosystem: 'yarn'
     directory: '/'
     schedule:
-      interval: 'monthly'
+      interval: 'daily'
+      time: "18:07"
+      timezone: "Europe/London"
     groups:
       non-breaking:
         update-types:
